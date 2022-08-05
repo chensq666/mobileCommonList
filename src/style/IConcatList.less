@@ -1,0 +1,65 @@
+.text-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.common-user-department {
+    color: #999;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.idm-common-concat-list {
+    overflow: auto;
+    .adm-list-item,.adm-list-body {
+        background-color: transparent;
+    }
+    .adm-list-default .adm-list-body {
+        border: 0;
+    }
+    .style-one-container {
+        .center-left {
+            width: 30%;
+            div {
+                &:extend(.text-overflow);
+            }
+        }
+        .center-right {
+            width: 65%;
+            div {
+                &:extend(.text-overflow);
+            }
+        }
+        .user-department {
+            &:extend(.common-user-department);
+            font-size: 15px;
+        }
+        .user-time {
+            color: #999;
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-size: 15px;
+        }
+        .right-button{
+            color: #fff;
+            font-size: 15px;
+            border-radius: 5px;
+            background-color: rgb(65, 134, 230);
+            padding: 5px 18px;
+        }
+    }
+    .style-two-container {
+        .user-department {
+            &:extend(.common-user-department);
+            margin: 0 0 0 20px;
+        }
+        .user-phone {
+            color: #999;
+            font-size: 15px;
+        }
+        .phone-img {
+            width: 22px;
+            height: 22px;
+            fill: rgb(67, 116, 215);
+        }
+    }
+}

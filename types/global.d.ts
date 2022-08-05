@@ -10,3 +10,8 @@ declare global {
   }
 }
 declare module jquery {}
+
+declare module "*.less" {
+  const style: any;
+  export default style;
+}

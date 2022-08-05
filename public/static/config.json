@@ -1,13 +1,20 @@
 {
   "version": "1.0.0",
-  "lasttime": "2022-07-22 15:39:08",
+  "lasttime": "2022-08-05 10:23:14",
   "author": "申龙",
-  "className": "react",
+  "className": "mobileCommonList",
   "module": [
     {
-      "classId": "idm.component.react.demoText",
+      "classId": "idm.component.mobileCommonList.demoText",
       "comName": "测试文本",
       "className": "DemoText",
+      "comType": "common",
+      "comLangue": "react"
+    },
+    {
+      "classId": "idm.component.mobileCommonList.iconcatlist",
+      "comName": "联系人列表",
+      "className": "IConcatList",
       "comType": "common",
       "comLangue": "react"
     }
